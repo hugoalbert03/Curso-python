@@ -1,0 +1,6 @@
+nome = input("Escreva o nome de sugestão: ")
+print("Valor apresentado:")
+print("{:>10}".format(nome))
+print("{:<10}".format(nome))
+print("{:^20}".format(nome))
+print("{:/^20}".format(nome))
