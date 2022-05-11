@@ -6,10 +6,10 @@ print("-=-" * 30)
 npc = randint(1,10) #O computador sorteia um número
 nusr = int(input("Pense em um numero? ")) #O usuário pensa em um número
 print("Processando...")
-sleep(3)
 if nusr > 10 or nusr < 1: #O computador avalia se o usuário estrapolou o limite da resposta
     print("Numeração excedida! A regra é digitar uma numeração entre 1 a 10")
 else:
+    sleep(3)
     if nusr == npc: #O computador avalia se o usuário venceu ou perdeu
         print("Parabéns, você conseguiu me vencer!")
     else:
