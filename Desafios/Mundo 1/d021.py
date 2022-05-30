@@ -1,9 +1,9 @@
 #TENTATIVA 1
 import time
 import pygame
-print("processando...")
+print("\033[33m processando...\033[m")
 time.sleep(3)
-print("Executando :)")
+print("\033[32m Executando :) \033[m")
 pygame.init()
 pygame.mixer.music.load('audio.ogg')
 pygame.mixer.music.play()
