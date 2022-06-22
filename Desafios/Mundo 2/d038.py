@@ -10,3 +10,4 @@ else:
     else:
         result = "\033[33mSEGUNDO\033[m"
     print("O {} número é o maior".format(result))
+print()
