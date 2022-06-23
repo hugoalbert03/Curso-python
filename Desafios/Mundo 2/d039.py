@@ -25,5 +25,5 @@ else:
         else:
             ano = "anos"
         print("- Já se passaram {} {} após seu prazo de alistamento.".format(idPrForm,ano))
-        print("- Seu alistamento foi em {}\033[m".format((DtNasc + int(18))))
+        print("- Seu alistamento foi no ano de {}\033[m".format((DtNasc + int(18))))
 print()
